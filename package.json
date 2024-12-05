@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.jsx",
   "scripts": {
-    "start": "concurrently \"npm run dev\" \"nodemon server/server.js\"",
+    "start": "npm run dev",
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview"
@@ -17,6 +17,7 @@
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "express": "^4.21.1",
+    "postcss": "^8.4.49",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
